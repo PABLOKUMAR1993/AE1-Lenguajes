@@ -1,0 +1,121 @@
+/* Color Theme CoolPic-Dark in Hex */
+.Design-UI-01-1-hex { color: #F34553; }
+.Design-UI-01-2-hex { color: #1D1D25; }
+.Design-UI-01-3-hex { color: #F1F5D7; }
+.Design-UI-01-4-hex { color: #A4A491; }
+.Design-UI-01-5-hex { color: #D84341; }
+
+/* Color Theme CoolPic-Dark in RGBA */
+.Design-UI-01-1-rgba { color: rgba(242, 68, 82, 1); }
+.Design-UI-01-2-rgba { color: rgba(28, 28, 36, 1); }
+.Design-UI-01-3-rgba { color: rgba(240, 244, 214, 1); }
+.Design-UI-01-4-rgba { color: rgba(163, 163, 144, 1); }
+.Design-UI-01-5-rgba { color: rgba(216, 66, 65, 1); }
+
+/* Color Theme CoolPic-Dark in HSLA */
+.Design-UI-01-1-hsla { color: hsla(355, 87, 61, 1); }
+.Design-UI-01-2-hsla { color: hsla(240, 12, 12, 1); }
+.Design-UI-01-3-hsla { color: hsla(67, 59, 90, 1); }
+.Design-UI-01-4-hsla { color: hsla(60, 9, 60, 1); }
+.Design-UI-01-5-hsla { color: hsla(0, 65, 55, 1); }
+
+/* Typography */
+.Roboto-Slab-Thin { font-family: roboto-slab, serif; font-weight: 200; font-style: normal; }
+.Roboto-Slab-Light { font-family: roboto-slab, serif; font-weight: 300; font-style: normal; }
+.Roboto-Slab-Regular { font-family: roboto-slab, serif; font-weight: 400; font-style: normal; }
+.Roboto-Slab-Bold { font-family: roboto-slab, serif; font-weight: 700; font-style: normal; }
+
+
+/* Style */
+
+
+body {
+    background-color: #1D1D25;
+    padding: 2%;
+}
+
+span {
+    color: #D84341;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Header */
+
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#ul-header {
+    display: flex;
+}
+
+#header-a {
+    color: #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
+    margin-left: 15px;
+}
+
+#header-a:hover {
+    color: #D84341;
+}
+
+#h2-logo {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+}
+
+#h3-logo {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18pt;
+}
+
+
+/* Footer */
+
+
+footer {
+    text-align: center;
+}
+
+#footer-p {
+    color: #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10pt;
+    word-spacing: 2px;
+}
+
+#footer-p a {
+    color: #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10pt;
+    margin: 0px;
+}
+
+#footer-p a:hover {
+    color: #D84341;
+}
