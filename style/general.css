@@ -26,12 +26,19 @@
 .Roboto-Slab-Bold { font-family: roboto-slab, serif; font-weight: 700; font-style: normal; }
 
 
-/* Style */
+/* STYLE */
 
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #1D1D25;
-    padding: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 span {
@@ -47,7 +54,7 @@ ul {
 }
 
 
-/* Header */
+/* NAV MENU */
 
 
 nav {
@@ -59,19 +66,33 @@ nav {
 
 #ul-header {
     display: flex;
+
 }
 
-#header-a {
+#ul-header li ul {
+    display: none;
+    position: absolute;
+}
+
+#ul-header li:hover > ul {
+    display: block;
+}
+
+#a-header {
     color: #F1F5D7;
     font-family: roboto-slab, serif;
     font-weight: 300;
     font-style: normal;
     font-size: 12pt;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
-#header-a:hover {
+#a-header:hover {
     color: #D84341;
+}
+
+#ul-desplegable li {
+    margin-top: 10px;
 }
 
 #h2-logo {
@@ -91,7 +112,7 @@ nav {
 }
 
 
-/* Footer */
+/* FOOTER */
 
 
 footer {
