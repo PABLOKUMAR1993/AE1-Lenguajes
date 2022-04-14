@@ -26,21 +26,6 @@
 .Roboto-Slab-Bold { font-family: roboto-slab, serif; font-weight: 700; font-style: normal; }
 
 
-/* STYLE */
-
-
-body {
-    background-color: #1D1D25;
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-span {
-    color: #D84341;
-}
-
-
 /* RESET */
 
 
@@ -57,8 +42,68 @@ ul {
     list-style: none;
 }
 
+ol {
+    list-style: none;
+}
+
+
+/* GENERAL */
+
+
+body {
+    background-color: #1D1D25;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+span {
+    color: #D84341;
+}
+
+h1 {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36pt;
+}
+
+h2 {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32pt;
+}
+
+h3 {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28pt;
+}
+
+h4 {
+    color: #A4A491;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+}
+
+p {
+    color: #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt;
+}
+
 
 /* NAV MENU */
+
 
 nav {
     display: flex;
@@ -70,6 +115,7 @@ nav {
 
 #ul-header {
     display: flex;
+    z-index: 15;
 }
 
 #ul-header li ul {
@@ -86,7 +132,7 @@ nav {
     font-family: roboto-slab, serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 12pt;
+    font-size: 16pt;
     margin-left: 25px;
 }
 
@@ -98,20 +144,18 @@ nav {
     margin-top: 10px;
 }
 
-#h2-logo {
-    color: #A4A491;
-    font-family: roboto-slab, serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 24pt;
+#ul-desplegable {
+    background-color: rgba(163, 163, 144, 0.8);
+    padding-right: 1.5%;
+    padding-bottom: 0.8%;
 }
 
-#h3-logo {
-    color: #A4A491;
-    font-family: roboto-slab, serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18pt;
+@media (max-width:425px) {
+
+    #a-header {
+        font-size: 12pt;
+    }
+
 }
 
 
@@ -121,14 +165,20 @@ nav {
 footer {
     text-align: center;
     margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: #A4A491 solid 1px;
+    padding-top: 4%;
 }
 
 #footer-p {
+    margin-top: 0.5%;
     color: #F1F5D7;
     font-family: roboto-slab, serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 10pt;
+    font-size: 12pt;
     word-spacing: 2px;
 }
 
@@ -137,7 +187,6 @@ footer {
     font-family: roboto-slab, serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 10pt;
     margin: 0px;
 }
 

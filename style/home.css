@@ -1,38 +1,28 @@
-/*GENERAL*/
-
-h2 {
-    color: #F1F5D7;
-    font-family: roboto-slab, serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-p {
-    color: #F1F5D7;
-    font-family: roboto-slab, serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 /*SLIDER*/
+
 
 .container {
     margin: 0 5%;
-    overflow: hidden; 
+    overflow: hidden;
+}
+
+.slider-description {
+    text-align: center;
+    margin-bottom: 4%;
 }
 
 .slider {
     padding: 40px 0;
 }
 
-.slider_container {
+.slider-container {
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     align-items: center;
     gap: 1em;
 }
 
-.slider_body {
+.slider-body {
     grid-column: 2/3;
     grid-row: 1/2;
     opacity: 0;
@@ -43,28 +33,24 @@ p {
     transition: opacity 1.5s;
 }
 
-.slider_body--show {
+.slider-body-show {
     opacity: 1;
     pointer-events: unset;
 }
 
-.slider_text {
+.slider-text {
     width: 100%;
 }
 
 .subtitle {
-    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-.slider_review {
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 1.7;
+.slider-review {
     margin-right: 10%;
 }
 
-.slider_img {
+.slider-img {
     width: 230px;
     height: 230px;
     border-radius: 50%;
@@ -73,34 +59,32 @@ p {
     margin: 0 auto;
 }
 
-.slider_arrow {
+.slider-arrow {
     cursor: pointer;
     width: 60%;
 }
 
-.slider_arrow:nth-of-type(1) {
+.slider-arrow:nth-of-type(1) {
     justify-self: start;
 }
 
-.slider_arrow:nth-of-type(2) {
+.slider-arrow:nth-of-type(2) {
     justify-self: end;
 }
 
-/*SLIDER MEDIA*/
-
 @media (max-width:768px) {
     
-    .slider_body {
+    .slider-body {
         grid-template-columns: 1fr;
         grid-template-rows: max-content 1fr;
     }
 
-    .slider_picture {
+    .slider-picture {
         grid-row: 1/2;
         margin-bottom: 7%;
     }
 
-    .slider_img {
+    .slider-img {
         width: 210px;
         height: 210px;
     }
@@ -109,7 +93,7 @@ p {
         text-align: center;
     }
     
-    .slider_review {
+    .slider-review {
         text-align: center;
         margin-right: 0%;
     }
@@ -118,32 +102,28 @@ p {
 
 @media (max-width:425px) {
     
-    .slider_container {
+    .slider-container {
         grid-template-columns: 25px 1fr 25px;
     }
 
-    .slider_arrow {
+    .slider-arrow {
         width: 100%;
     }
 
-    .slider_img {
+    .slider-img {
         width: 180px;
         height: 180px;
     }
 
     .subtitle {
-        font-size: 2rem;
         margin-bottom: 15px;
-    }
-
-    .slider_review {
-        font-size: 1rem;
-        line-height: 1.6;
     }
 
 }
 
+
 /* HERO */
+
 
 .banner {
     position: relative;
@@ -151,12 +131,12 @@ p {
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #F1F5D7;
     background-size: cover;
     background-position: center;
     transition: all 1.5s ease-in-out;
     background-image: url('https://demos.freehtml5.co/beryllium/premium/images/slider_2.jpg');
     animation: hero 20s infinite linear;
+    z-index: 5;
 }
 
 .banner-content {
@@ -165,21 +145,11 @@ p {
     width: 100%;
     height: 100%;
     color:#F1F5D7;
-    background-color: rgba(0, 22, 40, 0.6);
+    background-color: rgba(28, 28, 36, 0.8);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.banner-content h1 {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 1%;
-    font-family: roboto-slab, serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 42pt;
 }
 
 .banner-content a {
@@ -198,6 +168,10 @@ p {
 .banner-content a:hover {
     background-color: #F1F5D7;
     color: black;
+}
+
+.banner-content p {
+    margin-top: 1%;
 }
 
 @keyframes hero {
@@ -230,12 +204,34 @@ p {
 
 @media (max-width:425px) {
 
-    .banner-content h1 {
+    .banner-content h3 {
         text-align: center;
-        font-family: roboto-slab, serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 32pt;
     }
 
+    .banner-content p {
+        text-align: center;
+        margin: 5%;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .banner-content p {
+        margin: 3%;
+    }
+
+}
+
+
+/* TITLE */
+
+
+.description {
+    margin: 4% 5%;
+    text-align: center;
+}
+
+.description p {
+    margin: 1.5% 10%;
 }

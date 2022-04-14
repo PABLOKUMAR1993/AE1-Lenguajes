@@ -1,5 +1,5 @@
 //Primero obtenemos y almacenamos todos los sliders.
-const sliders = [...document.querySelectorAll('.slider_body')];
+const sliders = [...document.querySelectorAll('.slider-body')];
 
 //Después obtenemos y almacenamos las flechas.
 const arrowAfter = document.querySelector('#after');
@@ -19,7 +19,7 @@ arrowBefore.addEventListener('click', ()=>changePosition(-1));
 function changePosition(change) {
 
     //Obtengo y almaceno el elemento actual y su data-id.
-    const currentElement = Number(document.querySelector('.slider_body--show').dataset.id);
+    const currentElement = Number(document.querySelector('.slider-body-show').dataset.id);
 
     //Ahora quiero añadirle 1 o -1 al dataid actual para pasar de diapositiva. 
     value = currentElement;
@@ -35,7 +35,7 @@ function changePosition(change) {
     }
 
     //Le quiero la clase al antiguo elemento actual y se la añado al nuevo elemento actual.
-    sliders[currentElement-1].classList.toggle('slider_body--show');
-    sliders[value-1].classList.toggle('slider_body--show');
+    sliders[currentElement-1].classList.toggle('slider-body-show');
+    sliders[value-1].classList.toggle('slider-body-show');
 
 }
