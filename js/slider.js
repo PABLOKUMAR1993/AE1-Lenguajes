@@ -1,20 +1,30 @@
-//Primero obtenemos y almacenamos todos los sliders.
-const sliders = [...document.querySelectorAll('.slider-body')];
+/**
+ * 
+ * Este Porgrama se ha creado para poder cambiar de diapositiva en el Slider de la web.
+ * 
+ * Primero con "querySelectorAll" obtenemos y almacenamos todos los elementos que tengan
+ * la id ".slider-body". Seguidamente usando una función similar almacenamos la flecha
+ * de retroceso y la de avance.
+ * 
+ * Ahora agrego un evento a la flecha after y otro a before.
+ * Cada vez que ocurre el evento llamo a la función "changePosition()" pasandole un número
+ * en función de si hace clic para avanzar o para retorceder.
+ * 
+ * El resto del programa lo explico en comentarios, creo que se sigue mejor.
+ * 
+ * @author Pavlo Dudnyk
+ * @version 1.0
+ * 
+ */
 
-//Después obtenemos y almacenamos las flechas.
+const sliders = [...document.querySelectorAll('.slider-body')];
 const arrowAfter = document.querySelector('#after');
 const arrowBefore = document.querySelector('#before');
+
 let value;
 
-/*
-Agrego un evento a la flecha after y otro a before.
-Cada vez que ocurre el evento llamo a la función pasandole un número
-en función de si hace clic para avanzar o para retorceder.
-*/
 arrowAfter.addEventListener('click', ()=>changePosition(1));
 arrowBefore.addEventListener('click', ()=>changePosition(-1));
-
-
 
 function changePosition(change) {
 
@@ -34,7 +44,8 @@ function changePosition(change) {
         value = value === 0 ? sliders.length : 1;
     }
 
-    //Le quiero la clase al antiguo elemento actual y se la añado al nuevo elemento actual.
+    //Le quito la clase al antiguo elemento actual y se la añado al nuevo elemento actual.
+    //Es por un tema de estilos.
     sliders[currentElement-1].classList.toggle('slider-body-show');
     sliders[value-1].classList.toggle('slider-body-show');
 
