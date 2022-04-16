@@ -235,3 +235,60 @@
 .description p {
     margin: 1.5% 10%;
 }
+
+
+/* MAIN */
+
+
+.random-pics {
+    margin: 2% 5%;
+}
+
+#random-pics-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.random-pics-box-left {
+    margin-right: 0.25%;
+}
+
+.random-pics-box-right {
+    margin-left: 0.25%;
+}
+
+.random-pics-img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:768px) {
+
+    #random-pics-grid {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0% 10%;
+    }
+
+    .random-pics-box-left {
+        margin-right: 0;
+    }
+    
+    .random-pics-box-right {
+        margin-left: 0;
+    }
+    
+    .random-pics-img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width:425px) {
+
+    #random-pics-grid {
+        margin: 0%;
+    }
+
+}
