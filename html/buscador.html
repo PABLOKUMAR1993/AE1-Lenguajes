@@ -1,0 +1,87 @@
+<!--@author Pavlo Dudnyk-->
+<!--@version V1.0-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/buscador.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../style/general.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://use.typekit.net/flf6tut.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <title>CoolPic. - Buscador</title>
+</head>
+
+<body>
+
+    <!--Menú de Navegación-->
+
+    <nav>
+        <a href="../index.html">
+            <h2 id="h2-logo">CoolPic<span>.</span></h2>
+        </a>
+        <ul id="ul-header">
+            <li><a href="#" id="a-header">Menú</a>
+                <ul id="ul-desplegable">
+                    <li><a href="../index.html" id="a-header">Inicio</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Noticias</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Quién Somos</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Publicaciones</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Área de Actuación</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Localización</a></li>
+                    <li><a href="../html/#" id="a-header">Contacto</a></li>
+                </ul>
+            </li>
+            <li><a href="../html/buscador.html" id="a-header">Buscador</a></li>
+        </ul>
+    </nav>
+
+    <!--Hero-->
+
+    <section class="banner">
+        <div class="banner-content">
+            <h3>Buscador<span>.</span></h3>
+            <p>Aquí puedes buscar la inspiración que te falta<span>.</span></p>
+
+            <section class="search"> <!--Barra de busqueda-->
+                <input type="text" id="searchQuery" placeholder="Introduce un término de búsqueda" requiered>
+               <figure onclick="searchPics()" class="button"><img src="../images/magnifying-glass-solid.svg"></figure>
+            </section>
+
+        </div>
+    </section>
+
+    <!--Title-->
+
+    <section class="description">
+        <h4>Los resultados de la busqueda aquí<span>:</span></h4>
+    </section>
+
+    <!--Main-->
+
+    <main class="random-pics">
+        <section id="random-pics-grid">
+        </section>
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+        <h4 id="h3-logo">CoolPic<span>.</span></h4>
+        <p id="footer-p">
+            Proyecto realizado por <a href="#" target="_blank">David Menéndez</a>, <a href="#" target="_blank">Raúl
+                Moreno</a> <span>&</span> <a href="https://www.linkedin.com/in/pavlo-dudnyk" target="_blank">Pavlo
+                Dudnyk</a><span>.</span>
+        </p>
+        <p id="footer-p">
+            Imagenes demo proporcionadas por la API de <a href="https://unsplash.com/" target="_blank">Unsplash</a>.
+        </p>
+    </footer>
+
+    <script src="../js/buscador.js"></script>
+</body>
+
+</html>

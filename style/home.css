@@ -183,27 +183,27 @@
 @keyframes hero {
 
     0% {
-        background-image: url('https://demos.freehtml5.co/beryllium/premium/images/slider_2.jpg');
+        background-image: url('https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1855&q=80');
     }
     
     33% {
-        background-image: url('https://demos.freehtml5.co/beryllium/premium/images/slider_2.jpg');
+        background-image: url('https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1855&q=80');
     }
 
     34% {
-        background-image: url('https://demos.freehtml5.co/beryllium/premium/images/slider_1.jpg');
+        background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80');
     }
 
     66% {
-        background-image: url('https://demos.freehtml5.co/beryllium/premium/images/slider_1.jpg');
+        background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80');
     }
 
     67% {
-        background-image: url('https://demos.freehtml5.co/beryllium/premium/images/slider_3.jpg');
+        background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
     }
 
     100% {
-        background-image: url('https://demos.freehtml5.co/beryllium/premium/images/slider_3.jpg');
+        background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
     }
 
 }
@@ -282,11 +282,6 @@
     
     .random-pics-box-right {
         margin-left: 0;
-    }
-    
-    .random-pics-img {
-        width: 100%;
-        height: auto;
     }
 
 }
