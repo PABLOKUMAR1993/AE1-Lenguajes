@@ -1,0 +1,100 @@
+<!--@author Pavlo Dudnyk-->
+<!--@version V1.0-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/contact.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../style/general.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://use.typekit.net/flf6tut.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <title>CoolPic. - Contacto</title>
+</head>
+
+<body>
+
+    <!--Menú de Navegación-->
+
+    <nav>
+        <a href="../index.html">
+            <h2 id="h2-logo">CoolPic<span>.</span></h2>
+        </a>
+        <ul id="ul-header">
+            <li><a href="#" id="a-header">Menú</a>
+                <ul id="ul-desplegable">
+                    <li><a href="../index.html" id="a-header">Inicio</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Noticias</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Quién Somos</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Publicaciones</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Área de Actuación</a></li>
+                    <li><a href="../html/#" id="a-header" class="a-subheader">Localización</a></li>
+                    <li><a href="../html/contact.html" id="a-header">Contacto</a></li>
+                </ul>
+            </li>
+            <li><a href="../html/seeker.html" id="a-header">Buscador</a></li>
+        </ul>
+    </nav>
+
+    <!--Hero-->
+
+    <section class="banner">
+        <div class="banner-content">
+            <h3>Hablamos<span>?</span></h3>
+            <p>Un formulario de contacto que <span>funciona de verdad</span> sin backend y gracias a JS<span>.</span></p>
+        </div>
+    </section>
+
+    <!--Title-->
+
+    <section class="description">
+        <h4>Contactanos a través del siguiente formulario<span>:</span></h4>
+    </section>
+
+    <!--Form-->
+
+    <section class="form-contact">
+        
+        <form action="https://formspree.io/f/xqknyryq" method="post" class="contact">
+
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name" placeholder="Escribe tu nombre">
+
+            <label for="email"><span>*</span> E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Estube tu E-mail" required>
+
+            <label for="tel">Móvil:</label>
+            <input type="tel" name="tel" id="tel" placeholder="Escribe tu Teléfono Móvil">
+
+            <label for="subject">Asunto:</label>
+            <input type="text" name="subject" id="subject" placeholder="De qué se trata?">
+
+            <label for="message"><span>*</span> Mensaje:</label>
+            <textarea type="text" name="message" id="message" placeholder="Escribe lo que quieras" required></textarea>
+
+            <input type="submit" value="Enviar" class="button">
+            
+        </form>
+
+    </section>
+
+    <!--Footer-->
+
+    <footer>
+        <h4 id="h3-logo">CoolPic<span>.</span></h4>
+        <p id="footer-p">
+            Proyecto realizado por <a href="#" target="_blank">David Menéndez</a>, <a href="#" target="_blank">Raúl
+                Moreno</a> <span>&</span> <a href="https://www.linkedin.com/in/pavlo-dudnyk" target="_blank">Pavlo
+                Dudnyk</a><span>.</span>
+        </p>
+        <p id="footer-p">
+            Imagenes demo proporcionadas por la API de <a href="https://unsplash.com/" target="_blank">Unsplash</a>.
+        </p>
+    </footer>
+
+</body>
+
+</html>
