@@ -1,5 +1,4 @@
 /**
- * 
  * Este Porgrama se ha creado para poder cambiar de diapositiva en el Slider de la web.
  * 
  * Primero con "querySelectorAll" obtenemos y almacenamos todos los elementos que tengan
