@@ -133,6 +133,32 @@
     width: 40%;
 }
 
+@media (max-width:768px) {
+
+    .search:hover input{
+        width: 400px;
+    }
+    
+    .search input:focus {
+        width: 400px;
+    }
+
+}
+
+@media (max-width:425px) {
+
+    .search:hover input{
+        width: 250px;
+    }
+    
+    .search input:focus {
+        width: 250px;
+    }
+
+}
+
+
+
 /* TITLE */
 
 
