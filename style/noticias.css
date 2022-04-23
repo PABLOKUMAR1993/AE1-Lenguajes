@@ -24,15 +24,28 @@
     margin-bottom: 5%;  
 }
 
-.foto_noticia {
+.noticia .foto_noticia {
     max-width: 200px;
     padding: 2%;
     border-style: dashed;
     border-color: blanchedalmond;
 }
 
-.texto_noticia {
-    text-align: left;
+.noticia .texto_noticia {
     margin-left: 2%;
     margin-right: 2%;
 }
+
+.noticia .texto_noticia .leer_mas {
+    justify-content: flex-end;
+    background-color: rgba(163, 163, 144, 1);
+    border: none;
+    color:rgba(240, 244, 214, 1);
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1% 1%;
+    cursor: pointer;
+  }
