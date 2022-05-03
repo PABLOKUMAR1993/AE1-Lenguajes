@@ -1,0 +1,53 @@
+/*
+@author Raul Moreno
+@version V1.0
+*/
+
+
+section {
+    width:98%;
+    }
+
+
+section h1{
+    text-align: center;
+    width:100%;
+    /*background-color:rgb(196, 153, 238);  este color estaba antes de la imagen*/
+    background-image: url("../images/fondotittle1.jpg");
+    margin-top: 20px;
+    color:rgba(166, 194, 42, 0.842)
+}
+
+
+.imagen_derecha{
+    float: right;
+    margin: 25px;
+}
+
+.imagen_izquierda{
+    float: left;
+    margin: 25px;
+}
+
+
+
+article {
+    margin: 50px;
+    text-align: justify;
+    width:95%;
+    padding: 0.5%;
+}
+
+article h3{
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+
+a{
+    color:yellow;
+}
+
+a:hover {
+    color:rgb(247, 136, 136);
+}
