@@ -30,12 +30,12 @@ section h1{
 }
 
 
-
 article {
     margin: 50px;
     text-align: justify;
     width:95%;
     padding: 0.5%;
+    border: white 1px dotted;
 }
 
 article h3{
