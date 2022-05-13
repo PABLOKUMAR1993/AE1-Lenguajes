@@ -1,0 +1,85 @@
+/*
+@author Raul Moreno
+@version V1.0
+*/
+
+section {
+    width:80%;
+
+    }
+
+#main{
+    width:95%;
+    display:inline-block;
+}
+
+section{
+    outline: 1px solid red; /* es para ver los limites*/
+    width:75%;
+}
+
+article {
+    display: inline-block;
+    width:45%;
+    margin: 1%;
+    outline: 1px solid red; /* es para ver los limites*/
+    padding: 1%;
+    text-align: justify;
+}
+
+aside {
+    float:right;
+    width:20%;
+    background: blue;
+    margin:1%;
+    text-align: justify;
+    font-size:large;
+    color:rgb(88, 38, 8);
+    background-color:rgb(187, 140, 189);
+    padding:1%;
+    outline: 1px solid red;  /* es para ver los limites  no entiendo porque no se sube seguro que luego es una tonteria*/
+}
+
+section h1{
+    font-family:Verdana, Sans-serif;
+    text-align: center;
+    background-color:rgb(121, 105, 138); 
+    margin-top: 20px;
+    padding:0.5%;
+    color:rgba(208, 247, 36, 0.74)
+    
+}
+
+article h3{
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-weight:bold;
+}
+
+p{
+    font-family:'Times New Roman';
+}
+
+aside h3{
+    font-style:italic;
+    color:black;
+    text-decoration:blink;
+
+}
+
+dt{
+    font-weight:bold;
+    text-decoration:underline;
+    color:rgb(66, 12, 12);
+}
+dd{
+    color:rgb(66,12,12);
+}
+
+a{
+    color:yellow;
+}
+
+a:hover {
+    color:rgb(247, 136, 136);
+}

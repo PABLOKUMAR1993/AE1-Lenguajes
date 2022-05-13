@@ -12,29 +12,37 @@ section {
 section h1{
     text-align: center;
     width:100%;
+    font-family:Helvetica;
     /*background-color:rgb(196, 153, 238);  este color estaba antes de la imagen*/
     background-image: url("../images/fondotittle1.jpg");
+    background-repeat:no-repeat;
     margin-top: 20px;
     color:rgba(166, 194, 42, 0.842)
 }
 
+p{
+    font-family:'Times New Roman';
+}
 
 .imagen_derecha{
     float: right;
     margin: 25px;
+    border:ridge;
 }
 
 .imagen_izquierda{
     float: left;
     margin: 25px;
+    border:ridge;
 }
 
 
 article {
+    font-family:'Times New Roman';
     margin: 50px;
     text-align: justify;
     width:95%;
-    padding: 0.5%;
+    padding: 1%;
     border: white 1px dotted;
 }
 
