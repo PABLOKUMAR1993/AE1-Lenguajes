@@ -11,8 +11,6 @@
  * 
  * El resto del programa lo explico en comentarios, creo que se sigue mejor.
  * 
- * @author Pavlo Dudnyk
- * @version 1.0
  * 
  */
 

@@ -1,110 +1,132 @@
-/*
-@author David Menendez
-@version V1.0
-*/
-@charset "UTF-8";
+/* HERO */
 
-.descripcion{
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-right: 2%;
+
+.banner {
+    position: relative;
+    height: 50vh;
+    margin-top: 2%;
     margin-left: 5%;
+    margin-right: 5%;
+    background-size: cover;
+    background-position: center;
+    transition: all 1.5s ease-in-out;
+    background-image: url('https://images.unsplash.com/photo-1642516355641-5bede7c2d026?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    z-index: 5;
 }
-.localizacion-box{
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-right: 2%;
-    margin-left: 5%;
+
+.banner-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color:#F1F5D7;
+    background-color: rgba(28, 28, 36, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-content a {
+    margin-top: 2%;
+    color:#F1F5D7;
+    padding: 1% 2%;
+    border: 1px solid #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16pt;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+
+.banner-content a:hover {
+    background-color: #F1F5D7;
+    color: black;
+}
+
+.banner-content p {
+    margin-top: 1%;
+}
+
+.search-section {
     display: flex;
 }
 
-.mapa {
-    width: 40%;
-    padding-right: 3%;
+@media (max-width:425px) {
+
+    .banner-content h3 {
+        text-align: center;
+    }
+
+    .banner-content p {
+        text-align: center;
+        margin: 5%;
+    }
+
 }
 
-#but_contacto {
-    padding: 1% 2%;
-    margin-top: 5%;    
-    background-color: rgba(163, 163, 144, 1);
-    border: none;
-    color:rgba(240, 244, 214, 1);
+@media (max-width:768px) {
+
+    .banner-content p {
+        margin: 3%;
+    }
+
+}
+
+
+/* MAIN */
+
+
+.localizacion-box {
+    margin: 5% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mapa_frame {
+    margin: 0 5% 0 0;
+}
+
+.direccion {
+    margin: 0 0 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direccion div {
     text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-  }
+}
 
-  @media (max-width:1000px) {
-    .descripcion{
-        margin-top: 3%;
-        margin-bottom: 3%;
-        margin-right: 2%;
-        margin-left: 2%;
-    }
+.direccion div h4 {
+    margin: 0 0 5% 0;
+}
 
-    .localizacion-box {
-        background-color: rgb(49, 47, 47);
-        display: flex;
-        flex-direction: column;
-        margin: 2%;
-        padding: 2%;
-    }
-    .mapa {
-        width: 100%;
+.direccion div article {
+    margin-bottom: 10%;
+}
 
-    }
-    #but_contacto {
-        padding: 1% 2%;
-        margin-top: 5%;    
-        margin-bottom: 5%; 
-        background-color: rgba(163, 163, 144, 1);
-        border: none;
-        color:rgba(240, 244, 214, 1);
-        text-align: center;
-        text-decoration: none;
-        font-size: 24px;
-        cursor: pointer;
-      }
-  }
+.direccion div a {
+    background-color: #F1F5D7;
+    color: #1D1D25;
+    padding: 10px 20px;
+}
 
+.direccion div a:hover {
+    background-color: #F34553;
+    color: #1D1D25;
+    padding: 10px 20px;
+}
 
-@media (max-width:425px) {
-    .descripcion{
-        margin: 2%
-    }
-    h4.titulo{
-        font-size: 18pt;
-        font-weight: 400;
-        margin-bottom: 2%;
-    }
-    p.direccion{
-        font-size: 12pt;
-        font-weight: 400;
-    }
+@media (max-width:768px) {
 
     .localizacion-box {
-        background-color: rgb(49, 47, 47);
-        display: flex;
-        flex-direction: column;
-        margin: 2%;
-        padding: 2%;
-    }
-    .mapa {
-        width: 100%;
-
+        grid-template-columns: 1fr;
     }
 
-    #but_contacto {
-        padding: 1% 2%;
-        margin-top: 5%;    
-        margin-bottom: 5%; 
-        background-color: rgba(163, 163, 144, 1);
-        border: none;
-        color:rgba(240, 244, 214, 1);
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        cursor: pointer;
-      }
+    .direccion {
+        margin: 5% 0;
+    }
+
 }

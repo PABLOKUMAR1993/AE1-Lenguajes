@@ -13,8 +13,6 @@
  * Ahora leo ese objeto con un bucle for para mostrar todas las URLs que me haya devuelto
  * y mediante el DOM los muestro en la web.
  * 
- * @author Pavlo Dudnyk
- * @version 1.0
  * 
  */
 

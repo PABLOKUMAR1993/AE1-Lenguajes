@@ -1,6 +1,3 @@
-<!--@author David Menendez-->
-<!--@version V1.0-->
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -18,94 +15,102 @@
 <body>
 
     <!--Menú de Navegación-->
-    
+
     <nav>
-        <a href="./noticias.html">
+        <a href="../index.html">
             <h2 id="h2-logo">CoolPic<span>.</span></h2>
         </a>
         <ul id="ul-header">
             <li><a href="#" id="a-header">Menú</a>
                 <ul id="ul-desplegable">
-                    <li><a href="./index.html" id="a-header">Inicio</a></li>
+                    <li><a href="../index.html" id="a-header">Inicio</a></li>
                     <li><a href="../html/noticias.html" id="a-header" class="a-subheader">Noticias</a></li>
                     <li><a href="../html/quienes-somos.html" id="a-header" class="a-subheader">Quién Somos</a></li>
                     <li><a href="../html/publicaciones.html" id="a-header" class="a-subheader">Publicaciones</a></li>
-                    <li><a href="../html/area-de-actuacion.html" id="a-header" class="a-subheader">Área de Actuación</a></li>
+                    <li><a href="../html/area-de-actuacion.html" id="a-header" class="a-subheader">Área de Actuación</a>
+                    </li>
                     <li><a href="../html/localizacion.html" id="a-header" class="a-subheader">Localización</a></li>
                     <li><a href="../html/contact.html" id="a-header">Contacto</a></li>
                 </ul>
             </li>
-            <li><a href="./html/seeker.html" id="a-header">Buscador</a></li>
+            <li><a href="../html/seeker.html" id="a-header">Buscador</a></li>
         </ul>
     </nav>
 
-    <!--Title-->
+    <!--Hero-->
 
-    <section class="descripcion">
-        <h4 id="titular">Nuestras últimas noticias.</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae ut explicabo, doloremque rerum illo illum laborum enim, sint aperiam at, placeat ipsum est tenetur omnis atque numquam quam quia dolor amet voluptatem. Animi, distinctio molestiae modi rem magnam qui. Hic porro nobis nemo saepe expedita ipsa excepturi totam, obcaecati dicta quos quis consectetur necessitatibus ea quisquam cumque tempore sint itaque similique! Vel, consectetur.</p>
+    <section class="banner">
+        <div class="banner-content">
+            <h3>Noticias<span>.</span></h3>
+            <p>Nuestras últimas <span>noticias.</span></p>
+        </div>
     </section>
-    
-    <!--Main Noticias-->
 
+    <!--Main-->
+
+    <h4 class="titulo">Últimas Noticias<span>.</span></h4>
     <section class="noticias_box">
-        
-        <!--Noticia 1-->
-        <div class="noticia">
-            <figure>
-                <img src="../images/conor-luddy-IVaKksEZmZA-unsplash.jpg" class="foto_noticia">
-            </figure>
-            <div class="descripcion_noticia">
-                <div>
-                    <h4 class="titular" >Titular noticia 1.</h4>          
-                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae ut explicabo, doloremque rerum illo illum laborum enim, sint aperiam at, placeat ipsum est tenetur omnis atque numquam quam quia dolor amet voluptatem. Animi, distinctio molestiae modi rem magnam qui. Hic porro nobis nemo saepe expedita ipsa excepturi totam, obcaecati dicta quos quis consectetur necessitatibus ea quisquam cumque tempore sint itaque similique! Vel, consectetur.</p>
-                </div>
-                <button id="but_leer_mas">
-                    Leer mas
-                </button>
-            </div>
-        </div>
 
-        <!--Noticia 2-->
-        <div class="noticia">
-            <figure>
-                <img src="../images/nijwam-swargiary-PPfo56sLIB0-unsplash.jpg" class="foto_noticia">
-            </figure>
-            <div class="descripcion_noticia">
-                <div>
-                    <h4 class="titular" >Titular noticia 2.</h4>          
-                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae ut explicabo, doloremque rerum illo illum laborum enim, sint aperiam at, placeat ipsum est tenetur omnis atque numquam quam quia dolor amet voluptatem. Animi, distinctio molestiae modi rem magnam qui. Hic porro nobis nemo saepe expedita ipsa excepturi totam, obcaecati dicta quos quis consectetur necessitatibus ea quisquam cumque tempore sint itaque similique! Vel, consectetur.</p>
-                </div>
-                <button id="but_leer_mas">
-                    Leer mas
-                </button>
-            </div>
-        </div>
 
-        <!--Noticia 3-->
-        <div class="noticia">
-            <figure>
-                <img src="../images/jakob-owens-z0JDhl_qNIQ-unsplash.jpg" class="foto_noticia">
-            </figure>
+        <article class="noticia">
+            <img src="../images/conor-luddy-IVaKksEZmZA-unsplash.jpg" class="foto_noticia">
             <div class="descripcion_noticia">
-                <div>
-                    <h4 class="titular" >Titular noticia 3.</h4>          
-                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae ut explicabo, doloremque rerum illo illum laborum enim, sint aperiam at, placeat ipsum est tenetur omnis atque numquam quam quia dolor amet voluptatem. Animi, distinctio molestiae modi rem magnam qui. Hic porro nobis nemo saepe expedita ipsa excepturi totam, obcaecati dicta quos quis consectetur necessitatibus ea quisquam cumque tempore sint itaque similique! Vel, consectetur.</p>
-                </div>
-                <button id="but_leer_mas">
-                    Leer mas
+                <h4 class="titular">Titular noticia 1.</h4>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae ut
+                    explicabo, doloremque rerum illo illum laborum enim, sint aperiam at, placeat ipsum est tenetur
+                    omnis atque numquam quam quia dolor amet voluptatem. Animi, distinctio molestiae modi rem magnam
+                    qui. Hic porro nobis nemo saepe expedita ipsa excepturi totam, obcaecati dicta quos quis
+                    consectetur necessitatibus ea quisquam cumque tempore sint itaque similique! Vel, consectetur.
+                </p>
+                <button>
+                    Leer más.
                 </button>
             </div>
-        </div>               
-    </section>    
+        </article>
+
+        <article class="noticia">
+            <img src="../images/nijwam-swargiary-PPfo56sLIB0-unsplash.jpg" class="foto_noticia">
+            <div class="descripcion_noticia">
+                <h4 class="titular">Titular noticia 2.</h4>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae ut
+                    explicabo, doloremque rerum illo illum laborum enim, sint aperiam at, placeat ipsum est tenetur
+                    omnis atque numquam quam quia dolor amet voluptatem. Animi, distinctio molestiae modi rem magnam
+                    qui. Hic porro nobis nemo saepe expedita ipsa excepturi totam, obcaecati dicta quos quis
+                    consectetur necessitatibus ea quisquam cumque tempore sint itaque similique! Vel, consectetur.
+                </p>
+                <button>
+                    Leer más.
+                </button>
+            </div>
+        </article>
+
+        <article class="noticia">
+            <img src="../images/jakob-owens-z0JDhl_qNIQ-unsplash.jpg" class="foto_noticia">
+            <div class="descripcion_noticia">
+                <h4 class="titular">Titular noticia 3.</h4>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vitae ut
+                    explicabo, doloremque rerum illo illum laborum enim, sint aperiam at, placeat ipsum est tenetur
+                    omnis atque numquam quam quia dolor amet voluptatem. Animi, distinctio molestiae modi rem magnam
+                    qui. Hic porro nobis nemo saepe expedita ipsa excepturi totam, obcaecati dicta quos quis
+                    consectetur necessitatibus ea quisquam cumque tempore sint itaque similique! Vel, consectetur.
+                </p>
+                <button>
+                    Leer más.
+                </button>
+            </div>
+        </article>
+
+    </section>
 
     <!--Footer-->
 
     <footer>
         <h4 id="h3-logo">CoolPic<span>.</span></h4>
         <p id="footer-p">
-            Proyecto realizado por <a href="https://www.linkedin.com/in/david-menendez-nunez/" target="_blank">David Menéndez</a>, <a href="#" target="_blank">Raúl Moreno</a> <span>&</span> <a
-                href="https://www.linkedin.com/in/pavlo-dudnyk" target="_blank">Pavlo Dudnyk</a><span>.</span>
+            Proyecto realizado por <a href="https://www.linkedin.com/in/david-menendez-nunez/" target="_blank">David
+                Menéndez</a>, <a href="https://www.linkedin.com/in/raul-moreno-786669122/" target="_blank">Raúl
+                Moreno</a> <span>&</span> <a href="https://www.linkedin.com/in/pavlo-dudnyk" target="_blank">Pavlo
+                Dudnyk</a><span>.</span>
         </p>
         <p id="footer-p">
             Imagenes demo proporcionadas por la API de <a href="https://unsplash.com/" target="_blank">Unsplash</a>.

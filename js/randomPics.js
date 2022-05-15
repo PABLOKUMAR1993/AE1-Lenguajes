@@ -17,9 +17,6 @@
  * El if es por temas de CSS, necesito que las imagenes de la izquierda tengan la clase left
  * y las de la derecha tengan la clase right, para poder aplicar bien las separaciones dentro del grid.
  * 
- * @author Pavlo Dudnyk
- * @version 1.0
- * 
  */
 
 let sw;

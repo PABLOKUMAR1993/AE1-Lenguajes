@@ -1,127 +1,136 @@
-/*
-@author David Menendez
-@version V1.0
-*/
-@charset "UTF-8";
+/* HERO */
 
-.descripcion{
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-right: 5%;
+
+.banner {
+    position: relative;
+    height: 50vh;
+    margin-top: 2%;
     margin-left: 5%;
+    margin-right: 5%;
+    background-size: cover;
+    background-position: center;
+    transition: all 1.5s ease-in-out;
+    background-image: url('https://images.unsplash.com/photo-1513031300226-c8fb12de9ade?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    z-index: 5;
 }
+
+.banner-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color:#F1F5D7;
+    background-color: rgba(28, 28, 36, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-content a {
+    margin-top: 2%;
+    color:#F1F5D7;
+    padding: 1% 2%;
+    border: 1px solid #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16pt;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+
+.banner-content a:hover {
+    background-color: #F1F5D7;
+    color: black;
+}
+
+.banner-content p {
+    margin-top: 1%;
+}
+
+.search-section {
+    display: flex;
+}
+
+@media (max-width:425px) {
+
+    .banner-content h3 {
+        text-align: center;
+    }
+
+    .banner-content p {
+        text-align: center;
+        margin: 5%;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .banner-content p {
+        margin: 3%;
+    }
+
+}
+
+
+/* MAIN */
+
 
 .equipo {    
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-right: 5%;
-    margin-left: 5%; 
+    margin: 2% 5%;
 }
 
-.departamento{
-    margin-bottom: 5%;
+.equipo h1 {
+    text-align: center;
+    margin: 10%;
 }
 
 .personas {
     background-color: rgb(49, 47, 47);
-    padding: 3%;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.persona{
-    margin-left: 3%;
-    margin-right: 3%;    
+
+.persona {
+    margin: 5%;
+}
+
+.persona p {
+    text-align: justify;
 }
 
 .foto {
-    max-width: 100%;
-    border-style:groove;
-    border-color: blanchedalmond;
-    height: 250px;
-    width: 250px;
+    width: 100%;
+    max-height: 500px;
     object-fit: cover;
 }
 
-.nombre_p {
-    width: 100%;
-    margin-bottom: 2%;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20pt;
-}
-.texto_p {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 100%;
-    font-style: normal;
-    font-size: 14pt;
+.nombre {
+    margin: 2% 0;
 }
 
-@media (max-width:1000px) {
+.texto {
+    margin: 2% 0;
+}
 
-    .descripcion{
-       margin: 4%;
-    }
-    .departamento {    
-        margin: 0%;    
-    }
+
+@media (max-width:768px) {
+
     .personas {
-        background-color: rgb(49, 47, 47);
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
-    .foto { 
-    
-        width: 100%;
-        height: 100%;
-        border-style:groove;
-        border-color: blanchedalmond;
+
+    .persona h5 {
+        text-align: center;
     }
-    .nombre_p {
-        font-weight: 700;
-        font-size: 24pt;
-        margin-bottom: 3%;
-    }
-    .texto_p {
-        font-weight: 400;
-        font-size: 18pt;
-        margin-bottom: 3%;
-    }   
-  }
+
+}
 
 @media (max-width:425px) {
 
-    .descripcion{
-       margin: 2%;
-    }
-    .departamento {    
-        margin: 0%;    
-    }
-    .personas {
-        background-color: rgb(49, 47, 47);
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 5%;
-        
-        padding: 2%;
-    }
-    .foto { 
-    
-        width: 100%;
-        height: 100%;
-        border-style:groove;
-        border-color: blanchedalmond;
-    }
-    .nombre_p {
-        font-weight: 700;
-        font-size: 20pt;
-        margin-bottom: 3%;
-    }
-    .texto_p {
-        font-weight: 400;
-        font-size: 14pt;
-        margin-bottom: 3%;
-    }   
-  }
+ 
+
+}
+

@@ -1,61 +1,158 @@
-/*
-@author Raul Moreno
-@version V1.0
-*/
+/* HERO */
 
 
-section {
-    width:97%;
+.banner {
+    position: relative;
+    height: 50vh;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-size: cover;
+    background-position: center;
+    transition: all 1.5s ease-in-out;
+    background-image: url('https://images.unsplash.com/photo-1517146724986-1b37aacd753d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1843&q=80');
+    z-index: 5;
+}
+
+.banner-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color:#F1F5D7;
+    background-color: rgba(28, 28, 36, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-content a {
+    margin-top: 2%;
+    color:#F1F5D7;
+    padding: 1% 2%;
+    border: 1px solid #F1F5D7;
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16pt;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+
+.banner-content a:hover {
+    background-color: #F1F5D7;
+    color: black;
+}
+
+.banner-content p {
+    margin-top: 1%;
+}
+
+.search-section {
+    display: flex;
+}
+
+@media (max-width:425px) {
+
+    .banner-content h3 {
+        text-align: center;
     }
 
+    .banner-content p {
+        text-align: center;
+        margin: 5%;
+    }
 
-section h1{
-    text-align: center;
-    width:100%;
-    font-family:Helvetica;
-    /*background-color:rgb(196, 153, 238);  este color estaba antes de la imagen*/
-    background-image: url("../images/fondotittle1.jpg");
-    background-repeat:no-repeat;
-    margin-top: 20px;
-    color:rgba(166, 194, 42, 0.842)
 }
 
-p{
-    font-family:'Times New Roman';
+@media (max-width:768px) {
+
+    .banner-content p {
+        margin: 3%;
+    }
+
 }
 
-.imagen_derecha{
-    float: right;
-    margin: 25px;
-    border:ridge;
-}
 
-.imagen_izquierda{
-    float: left;
-    margin: 25px;
-    border:ridge;
-}
+/* MAIN */
 
+
+main {
+    border: #F1F5D7 dotted 0.5px;
+    margin: 5%;
+}
 
 article {
-    font-family:'Times New Roman';
-    margin: 50px;
-    text-align: justify;
-    width:95%;
-    padding: 1%;
-    border: white 1px dotted;
+    display: flex;
+    margin: 5% 0;
 }
 
-article h3{
-    font-weight: bold;
-    text-decoration-line: underline;
+.derecha {
+    flex-direction: row-reverse;
+} 
+
+img {
+    width: 33%;
+    height: 550px;
+    object-fit: cover;
+    margin: 0 5%;
 }
 
-
-a{
-    color:yellow;
+.contenido p {
+    margin: 5% 5% 2% 0%;
 }
 
-a:hover {
-    color:rgb(247, 136, 136);
+.contenido a:hover {
+    color: #D84341;
+}
+
+.derecha p {
+    text-align: right;
+    margin: 5% 0% 2% 5%;
+}
+
+.derecha {
+    text-align: right;
+}
+
+@media (max-width:768px) {
+
+    article {
+        flex-direction: column;
+    }
+
+    img {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contenido h3 {
+        margin: 5% 0 0 5%;
+        text-align: left;
+    }
+
+    .contenido p {
+        margin: 5% 5%;
+        text-align: justify;
+    }
+
+    .contenido a {
+        margin: 0 0 10% 5%;
+        text-align: left;
+    }
+
+    .derecha {
+        display: flex;
+        flex-direction: column;
+    } 
+    
+
 }

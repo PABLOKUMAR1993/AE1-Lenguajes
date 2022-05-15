@@ -13,8 +13,6 @@
  * del formulario actual, que es recargar la página mostrando publicidad y seguidamente
  * quiero cambiarlo por un mensaje de agradecimiento.
  * 
- * @author Pavlo Dudnyk
- * @version 1.0
  */
 
 const $form = document.querySelector('#form');
