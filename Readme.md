@@ -35,28 +35,30 @@
 >## Distribución del Trabajo en Equipo.
 
 
-    Para repartirnos equitativamente el trabajo y para que todos pudieramos hacer de todo (formularios, listas,
-    estilos, etc.) hemos estado haciendo llamadas en la cual cada vez compartia pantalla un compañero diferente
-    e ibamos rotando, así uno escribia todo el código y los demas le ayudaban, haciendolo así todos hemos
-    hecho de todo. Todas las páginas están construidas entre los tres miembros del equipo.
+    Para repartirnos equitativamente el trabajo y para que todos pudieramos hacer de todo (formularios,
+    listas, estilos, etc.) hemos estado haciendo llamadas en la cual cada vez compartia pantalla un
+    compañero diferente e ibamos rotando, así uno escribia todo el código y los demas le ayudaban,
+    haciendolo así todos hemos hecho de todo. Todas las páginas están construidas entre los tres
+    miembros del equipo.
     
-    Cabe destacar que la mayoría de documentos están commiteados por Pavlo Dudnyk, porque soy el responsable
-    en está practica de hacer el documento de entrega y he repasado faltas de otrografía de practicamente
-    todos los documentos. Es por eso que el úlimo commit de casi todos los documentos es mio.
+    Cabe destacar que la mayoría de documentos están commiteados por Pavlo Dudnyk, porque soy el
+    responsable en está practica de hacer el documento de entrega y he repasado faltas de otrografía
+    de practicamente todos los documentos. Es por eso que el úlimo commit de casi todos los
+    documentos es mio.
 
     -- CSS --
 
     ¿Cómo hemos distribuido los CSS?
-    Aunque la buena practica dice que debe de existir sólo un CSS general con todos los estilos, en este
-    proyecto era complicado, porque para depurar el código y los errores nos volviamos locos entre tantas
-    líneas, realmente respetamos las buenas practicas, pues ningun HTML tiene linkados más de dos hojas de
-    estilos, que son la general y la propia de la página. Lo hemos decidido hacer así porque nos costaba
-    mucho menos depurar los errores del CSS.
+    Aunque la buena practica dice que debe de existir sólo un CSS general con todos los estilos,
+    en este proyecto era complicado, porque para depurar el código y los errores nos volviamos locos
+    entre tantas líneas, realmente respetamos las buenas practicas, pues ningun HTML tiene linkados
+    más de dos hojas de estilos, que son la general y la propia de la página. Lo hemos decidido hacer
+    así porque nos costaba mucho menos depurar los errores del CSS.
 
     -- RESPONSITVE & ADAPTABILIDAD--
 
-    Todo el sitio web es completamente respoonsive y se adapta a pantallas verticales, cambiando dos columnas
-    o más a una y las filas modificandolas a columnas.
+    Todo el sitio web es completamente respoonsive y se adapta a pantallas verticales, cambiando
+    dos columnas o más a una y las filas modificandolas a columnas.
 
 
 ---
@@ -174,13 +176,13 @@
 
     En contacto tienes un formulario para ponerte en contacto conmigo, el formulario funciona de verdad.
 
-    Tiene una comprobacióm de mensaje entregado, si rellenas el formulario y envias la información te devolverá
-    un texto infromandote de ello. Si alguno de los campos obligatorios se quedan sin rellenar no enviará nada
-    y te pedirá que rellenes el campo obligatorio o que le des la estructura correcta, por ejemplo,
-    un email tiene que tener un arroba y un dominio.
+    Tiene una comprobacióm de mensaje entregado, si rellenas el formulario y envias la información te
+    devolverá un texto infromandote de ello. Si alguno de los campos obligatorios se quedan sin rellenar
+    no enviará nada y te pedirá que rellenes el campo obligatorio o que le des la estructura correcta,
+    por ejemplo, un email tiene que tener un arroba y un dominio.
 
-    Para una futura versión está planteado una depuración de posibles fallos que pueda devolver el servidor,
-    cómo que la dirección de correo no existe, etc.
+    Para una futura versión está planteado una depuración de posibles fallos que pueda devolver el
+    servidor, cómo que la dirección de correo no existe, etc.
 
     Funciona gracias a JavaScript y la API de FormsPree, para más info: https://formspree.io/.
 
