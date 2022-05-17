@@ -57,7 +57,7 @@
 
     -- RESPONSITVE & ADAPTABILIDAD--
 
-    Todo el sitio web es completamente respoonsive y se adapta a pantallas verticales, cambiando
+    Todo el sitio web es completamente responsive y se adapta a pantallas verticales, cambiando
     dos columnas o más a una y las filas modificandolas a columnas.
 
 
@@ -87,7 +87,7 @@
 * Inicio
 * Buscador
 * Noticias
-* Quién Somos
+* Quiénes Somos
 * Publicaciones
 * Área de Actuación
 * Localización
@@ -102,7 +102,7 @@
 
     En inicio puedes encontrar una galeria de fotos aleatorias, es decir, cada vez que recargues la página
     te saldrán fotos nuevas _pero no seas bruto_, es una cuenta demo y tiene límite de llamadas por día xD.
-    Funciona gracias a JavaScript y la API de unspalash, para más info: https://unsplash.com/developers.
+    Funciona gracias a JavaScript y la API de unsplash, para más info: https://unsplash.com/developers.
 
 
 ---
@@ -174,10 +174,10 @@
 >>## **Contacto**.
 
 
-    En contacto tienes un formulario para ponerte en contacto conmigo, el formulario funciona de verdad.
+    En contacto tienes un formulario para ponerte en contacto con nosotoros, el formulario funciona de verdad.
 
     Tiene una comprobacióm de mensaje entregado, si rellenas el formulario y envias la información te
-    devolverá un texto infromandote de ello. Si alguno de los campos obligatorios se quedan sin rellenar
+    devolverá un texto infromándote de ello. Si alguno de los campos obligatorios se quedan sin rellenar
     no enviará nada y te pedirá que rellenes el campo obligatorio o que le des la estructura correcta,
     por ejemplo, un email tiene que tener un arroba y un dominio.
 
