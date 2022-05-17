@@ -20,7 +20,7 @@
 * Inicio.
 * Buscador.
 * Noticias.
-* Quién Somos.
+* Quiénes Somos.
 * Publicaciones.
 * Área de Actuación.
 * Localización.
